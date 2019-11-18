@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\asus-pc\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\asus-pc\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_New Unity Project.161231113.00" t="ExcludeRecursive" />
+    <e p="D:\3GD 2\3D\New Unity Project" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Fantasy Forest Environment Free Sample" t="Include">
+          <e p="StandardNoCulling.shader" t="Include" />
+        </e>
+        <e p="FpcVanilla" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="FpInput.cs" t="Include" />
+            <e p="FpLook.cs" t="Include" />
+            <e p="FpMovement.cs" t="Include" />
+            <e p="SimpleCursorLock.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Sciprts" t="Include">
+          <e p="Capture.cs" t="Include" />
+          <e p="Girouette.cs" t="Include" />
+          <e p="ParticlesTrigger.cs" t="Include" />
+          <e p="Patrol.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="New Unity Project.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
