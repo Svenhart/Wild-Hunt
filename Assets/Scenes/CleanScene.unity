@@ -312,6 +312,48 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 262922742}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &312735306 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1599285673181242, guid: ec45c3a50be417945a8875e772020221,
+    type: 3}
+  m_PrefabInstance: {fileID: 1060943000}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &312735314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312735306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: "event:/Environnement/For\xEAt/Ambiance Foret"
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &312735315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312735306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!1 &370295285
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,6 +530,29 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1226036104}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &567965895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567965894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Elements de Gamepaly/Proies/Proie
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 7
 --- !u!114 &567965900
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -528,6 +593,22 @@ NavMeshAgent:
   m_BaseOffset: 0.5
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!54 &567965902
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567965894}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &636626893
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2037,7 +2118,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   wind: {fileID: 0}
   windSpeed: 0
-  windRotationTarget: {x: 0, y: 0, z: 0, w: 0}
+  blendTimer: 0
+  timeToNextBlend: 0
+  isBlending: 0
+  windRotationTimer: 0
+  timeToNextWindRotation: 0
 --- !u!4 &2078108410 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4892702781522406, guid: a21b612a4e6d7534587c95749139aa6d,

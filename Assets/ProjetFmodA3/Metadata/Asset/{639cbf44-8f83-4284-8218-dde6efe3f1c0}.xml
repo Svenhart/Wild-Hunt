@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{639cbf44-8f83-4284-8218-dde6efe3f1c0}">
+		<property name="assetPath">
+			<value>Avatar/Gameplay Traque/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{b77098f7-3bb5-428c-bfba-04d8ea641663}</destination>
+		</relationship>
+	</object>
+</objects>
