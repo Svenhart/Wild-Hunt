@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 08746d293fd827e429733f5c209aee54
+guid: 92ecb43b43fe5bd4b9b0099fed88cdd1
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -8,15 +8,8 @@ ModelImporter:
     2100000: RocksMaterial
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Rock
-    4300002: Rock4
-    6400000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: RocksMaterial
-    second: {fileID: 2100000, guid: d2fd4d71edd84d847abfac1d74b92941, type: 2}
+    4300000: Rock4
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -49,7 +42,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
@@ -78,7 +71,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
