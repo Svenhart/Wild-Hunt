@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 1
+  - enabled: 0
     path: Assets/Fantasy Forest Environment Free Sample/Scenes/demoScene_free.unity
     guid: 7769f33fb4fa2e5458344a36556ad760
+  - enabled: 1
+    path: Assets/Scenes/CleanScene.unity
+    guid: d6730ada8a0330345be0f4286dac987b
   m_configObjects: {}

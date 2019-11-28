@@ -5,6 +5,9 @@ using UnityEngine;
 public class Capture : MonoBehaviour
 {
     private Patrol preyPatrol;
+    
+    public Animator PopUpAnimator;
+
 
     private void OnTriggerEnter(Collider other)
     {
@@ -14,6 +17,7 @@ public class Capture : MonoBehaviour
             this.preyPatrol = other.GetComponent<Patrol>();
             this.preyPatrol.Respawn();
             this.preyPatrol = null;
+            PopUpAnimator.SetTrigger("Capture");
         }
     }
 }

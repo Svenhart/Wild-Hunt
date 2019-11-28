@@ -41,8 +41,10 @@ public class Patrol : MonoBehaviour
 	public void Respawn()
 	{
 		this.currentWaypoint = Random.Range(0, this.wayPoints.Length);
-		Debug.Log(currentWaypoint);
 		this.transform.position = this.wayPoints[this.currentWaypoint].position;
+		this.currentWaypoint++;
+		this.currentWaypoint %= wayPoints.Length;
+		this.agent.SetDestination(this.wayPoints[this.currentWaypoint].position);
 		Debug.Log("Respawn done at "+this.transform.position);
 	}
 }
