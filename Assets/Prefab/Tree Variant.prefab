@@ -24,7 +24,7 @@ PrefabInstance:
     - target: {fileID: 5275368013165032259, guid: 6e1a3d076d6db6f41b29d4a76af8d8f1,
         type: 3}
       propertyPath: m_Name
-      value: Tree
+      value: Tree Variant
       objectReference: {fileID: 0}
     - target: {fileID: 761065585586874714, guid: 6e1a3d076d6db6f41b29d4a76af8d8f1,
         type: 3}
